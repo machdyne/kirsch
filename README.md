@@ -2,6 +2,8 @@
 
 Kirsch is an FPGA computer designed by Lone Dynamics Corporation.
 
+![Kirsch Computer](https://github.com/machdyne/kirsch/blob/ce150d8c0c46f4245df2f3ed8568f2bf945f30c8/kirsch.png)
+
 This repo will contain schematics, PCB layouts, pinouts, a 3D-printable case, example gateware and documentation.
 
 Find more information on the [Kirsch product page](https://machdyne.com/product/kirsch-computer/).
