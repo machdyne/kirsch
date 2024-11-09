@@ -155,13 +155,6 @@ module mdx_case_bottom() {
 		translate([0,0,bottom_height-board_height])
 			roundedcube(board_width+0.2,board_length+0.2,board_height+1,2.5);
 
-		translate([wall, wall, 0]) {
-
-			// USBC
-			translate([-2,65-(10/2),1.5]) cube([30,10,3.5]);
-
-		}
-
 		// bolt holes
 		translate([4, 4, -11]) cylinder(d=3.2, h=25);
 		translate([4, 84-4, -11]) cylinder(d=3.2, h=25);
