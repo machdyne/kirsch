@@ -17,6 +17,38 @@ set_property IOSTANDARD LVCMOS33 [get_ports {sys_rst_n}]
 set_property LOC B1 [get_ports {aud_optical}]
 set_property IOSTANDARD LVCMOS33 [get_ports {aud_optical}]
 
+# pmod_a1:0
+set_property LOC P15 [get_ports {pmod_a1}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pmod_a1}]
+
+# pmod_a2:0
+set_property LOC R16 [get_ports {pmod_a2}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pmod_a2}]
+
+# pmod_a3:0
+set_property LOC R15 [get_ports {pmod_a3}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pmod_a3}]
+
+# pmod_a4:0
+set_property LOC T15 [get_ports {pmod_a4}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pmod_a4}]
+
+# pmod_a7:0
+set_property LOC N16 [get_ports {pmod_a7}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pmod_a7}]
+
+# pmod_a8:0
+set_property LOC P16 [get_ports {pmod_a8}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pmod_a8}]
+
+# pmod_a9:0
+set_property LOC M15 [get_ports {pmod_a9}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pmod_a9}]
+
+# pmod_a10:0
+set_property LOC M16 [get_ports {pmod_a10}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pmod_a10}]
+
 # sdram_clock:0
 set_property LOC C8 [get_ports {sdram_clock}]
 set_property IOSTANDARD LVTTL [get_ports {sdram_clock}]

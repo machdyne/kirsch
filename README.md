@@ -32,7 +32,7 @@ openFPGALoader -f -c usb-blaster blinky.bit --fpga-part xc7a35tftg256
 
 Building the blinky example requires Vivado or [openxc7](https://github.com/openxc7).
 
-Assuming they are installed, you can simply type `make blinky_openxc7` or `make blinky_vivado` to build the gateware, which will be written to output/kirsch.bit. You can then use [openFPGALoader](https://github.com/trabucayre/openFPGALoader) to write the gateware to the device.
+Assuming they are installed, you can simply type `make blinky_openxc7` or `make blinky_vivado` to build the gateware, which will be written to output/blinky.bit. You can then use [openFPGALoader](https://github.com/trabucayre/openFPGALoader) to write the gateware to the device.
 
 ## Linux
 
