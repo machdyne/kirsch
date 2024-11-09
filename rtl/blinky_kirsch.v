@@ -29,10 +29,10 @@ module blinky_kirsch
 	assign pmod_a2 = counter[22];
 	assign pmod_a1 = counter[21];
 
-   assign led = ~counter[25];
+	assign led = ~counter[25];
 
-   always @(posedge clk48) begin
-      counter <= counter + 1;
-   end
+	always @(posedge clk48) begin
+		counter <= counter + 1;
+	end
 
 endmodule
