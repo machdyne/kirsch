@@ -44,7 +44,7 @@ Copy the files from the `images/linux` and `images/v0` directory to the root dir
 
 Kirsch ships with LiteX gateware on the user gateware section of the MMOD that is compatible with these images. After several seconds the Linux penguin should appear on the screen (HDMI) followed by a login prompt. A serial console is also available over the USB-C port.
 
-**Note: If using the `kirsch\_usbacm.bit` bitstream, Kirsch won't boot until you've opened a terminal program on the correct port. This is because DTR is currently used as a reset signal (see [valentyusb](https://github.com/litex-hub/valentyusb)). If you want to use Kirsch standalone, use `kirsch.bit` instead which uses the PMOD as a serial console.**
+**Note: If using the `kirsch_usbacm.bit` bitstream, Kirsch won't boot until you've opened a terminal program on the correct port. This is because DTR is currently used as a reset signal (see [valentyusb](https://github.com/litex-hub/valentyusb)). If you want to use Kirsch standalone, use `kirsch.bit` instead which uses the PMOD as a serial console.**
 
 ### Building Linux
 
